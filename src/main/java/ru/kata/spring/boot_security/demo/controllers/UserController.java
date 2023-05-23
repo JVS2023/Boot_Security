@@ -9,6 +9,7 @@ import java.security.Principal;
 
 @Controller
 public class UserController {
+
     private final UserServiceImp userServiceImp;
 
     public UserController(UserServiceImp userServiceImp) {
